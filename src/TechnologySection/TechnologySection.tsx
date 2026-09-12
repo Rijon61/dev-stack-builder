@@ -106,8 +106,6 @@ const TechnologySection = ({ technologyPromise }: TechnologiesPops) => {
           <p className="text-[#A3B0C2] text-[17px]">
             {selectedTechnology.length} Technology Selected
           </p>
-          {/* <h1 className="bg-amber-500">{selectedTechnology.length}</h1> */}
-          {/* {selectedTechnology.length>0? <h1>hi</h1>: <h2>hello</h2>} */}
           <div>
             {selectedTechnology.length > 0 ? (
               <div className=" border border-[#dcdee2] rounded-[10px] p-3 mt-3 ">
