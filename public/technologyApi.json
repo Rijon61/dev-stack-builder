@@ -113,7 +113,7 @@
     "id": 12,
     "name": "Kubernetes",
     "category": "DevOps",
-    "description": "An open-source platform for automating deployment, scaling, and management of containerized applications.",
+    "description": "A powerful platform for deploying, scaling, and managing containerized applications.",
     "icon": "https://cdn.simpleicons.org/kubernetes/326CE5",
     "rating": 4.7,
     "difficulty": "Advanced",
@@ -144,7 +144,7 @@
     "name": "VS Code",
     "category": "Tools",
     "description": "A lightweight and powerful source-code editor with extensions for modern software development.",
-    "icon": "https://cdn.simpleicons.org/visualstudiocode/007ACC",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg",
     "rating": 4.9,
     "difficulty": "Beginner-Friendly",
     "badge": "Essential"

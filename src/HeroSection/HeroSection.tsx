@@ -2,7 +2,7 @@ import HeroImg from "../assets/banner-stack.png";
 
 const HeroSection = () => {
   return (
-    <div  className="grid grid-cols-12 container mx-auto mt-10 ">
+    <div  className="grid grid-cols-12 container mx-auto mt-15 ">
         {/* Hero-Right-side */}
         <div className="col-span-8">
           <h2 className="font-bold text-6xl mt-11">
