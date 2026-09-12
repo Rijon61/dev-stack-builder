@@ -26,7 +26,7 @@ const TechnologySection = ({ technologyPromise }: TechnologiesPops) => {
     } else {
       setSelectedTechnology([...selectedTechnology, technology]);
     }
-    toast.success("✓ Added to Stack", {
+    toast.success(`${technology.name} add to Stack`, {
       position: "bottom-right",
       autoClose: 5000,
       hideProgressBar: false,
@@ -97,6 +97,7 @@ const TechnologySection = ({ technologyPromise }: TechnologiesPops) => {
               technologyCard={technologyCard}
               key={technologyCard.id}
               handleAddToStack={handleAddToStack}
+              selected={selectedTechnology.some((tech) => tech.id === technologyCard.id)}
             />
           ))}
         </div>
@@ -112,6 +113,7 @@ const TechnologySection = ({ technologyPromise }: TechnologiesPops) => {
                 {selectedTechnology.map((AddToStack) => (
                   <AddToStackCard
                     AddToStack={AddToStack}
+                    key={AddToStack.id}
                     handleRemovedToStack={handleRemovedToStack}
                   />
                 ))}
