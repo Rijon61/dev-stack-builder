@@ -1,11 +1,13 @@
+import { GiHamburgerMenu } from "react-icons/gi";
 import navLogo from "../assets/logo-text.png";
 
 const NavBer = () => {
   return (
     <nav className="sticky top-0 z-50 py-4 border-b border-[#E5E7EB] bg-white">
-      <div className="flex justify-between container mx-auto items-center">
-        <img src={navLogo} className="h-9 w-34" alt="Website-Logo" />
-        <ul className="flex gap-5 text-center ">
+      <div className="flex justify-between container mx-auto items-center ">
+        <span className="md:hidden text-2xl"><GiHamburgerMenu /></span>
+        <img src={navLogo} className="h-9 w-34 " alt="Website-Logo" />
+        <ul className=" hidden md:flex gap-5 text-center ">
           <li className="text-[#D91B7E]">
             <a href="">Home</a>
           </li>
@@ -22,9 +24,9 @@ const NavBer = () => {
             <a href="">Contact</a>
           </li>
         </ul>
-        <div className="flex gap-4">
-          <button>Sign In</button>
-          <button className="w-20 h-8 bg-[#D91B7E] rounded-[20px] text-white">
+        <div className="flex gap-2 md:gap-4">
+          <button className="cursor-pointer" >Sign In</button>
+          <button className="px-3 py-1 bg-[#D91B7E]  rounded-[20px] text-white cursor-pointer">
             Sign Up
           </button>
         </div>

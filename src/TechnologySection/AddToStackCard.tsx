@@ -9,8 +9,8 @@ interface AddToStackCardProps {
 
 const AddToStackCard = ({ AddToStack ,handleRemovedToStack }: AddToStackCardProps) => {
   return (
-    <div className="flex justify-between items-center border border-[#dcdee2] rounded-[10px] my-3 p-4">
-      <div className="flex gap-5  ">
+    <div className="flex justify-between items-center border border-[#dcdee2] rounded-[10px] my-3 p-4 text-center">
+      <div className="flex gap-5 items-center  ">
         <img
           src={AddToStack.icon}
           className="w-10 h-10 "

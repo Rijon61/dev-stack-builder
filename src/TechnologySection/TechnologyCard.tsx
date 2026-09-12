@@ -10,7 +10,7 @@ const TechnologyCard = ({technologyCard ,handleAddToStack}:TechnologyCardPops) =
     
     return (
         <div className=" border border-[#dcdee2] rounded-[10px] p-5">
-            <div className="flex justify-between">
+            <div className="flex justify-between ">
                 <img src={technologyCard.icon} className="w-8 h-8" alt={technologyCard.name} />
                 <h4 className=" border border-[#CFFAFE] px-2 py-1 rounded-[20px] text-[#0891B2] bg-[#ECFEFF]">{technologyCard.badge}</h4>
             </div>

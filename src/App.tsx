@@ -6,6 +6,7 @@ import NavBer from './NavBer/NavBer'
 import TechnologySection from './TechnologySection/TechnologySection'
 import type TechnologyType from './Type/TechnologyType'
 import { ToastContainer } from 'react-toastify'
+import Footer from './Footer/Footer'
 
 const technologyPromise = async () :Promise<TechnologyType[]>=>{
   const res = await fetch('/technologyApi.json')
@@ -21,10 +22,10 @@ function App() {
     <NavBer/>
     <HeroSection/>
     <Suspense fallback={<p>Loading...</p>}>
-  <TechnologySection technologyPromise={technologyPromise()}/>
-  <ToastContainer/>
-</Suspense>
-    
+      <TechnologySection technologyPromise={technologyPromise()}/>
+    </Suspense>
+    <ToastContainer/>
+    <Footer/>
 
     </>
   )
