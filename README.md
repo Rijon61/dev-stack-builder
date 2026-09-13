@@ -76,6 +76,10 @@ In the **Dev-Stack-Builder** project, I used it to show an empty stack message w
 ```
 ### 7. How do you pass data from a parent component to a child component, and how does a child send something back to the parent?
 
+
+Parent → Child: Data is passed using props.
+Child → Parent: A function prop is passed from the Parent to the Child. The Child can send data to the Parent by calling that function.
+
 ```Code
 Parent → Child :
 <TechnologyCard
@@ -100,5 +104,29 @@ Step-2 : The child data is passed via the parent's `handleAddToStack` function.
 const handleAddToStack = (technology: TechnologyType): void => {
   setSelectedTechnology([...selectedTechnology, technology]);
 };
+
+```
+
+## ❓ Common FAQ
+
+### 1. Where can we deploy the site?
+
+We can deploy the site on any hosting platform. For example, Netlify, Vercel, or Render etc.
+I deployed my project on **Netlify**.
+
+### 2. Do we have to use TypeScript?
+
+No. We can use TypeScript or JavaScript.
+I have used **TypeScript** in my project.
+
+### 3.Can we change the title, logo, and colors?
+
+Yes. You can change the project title, logo, and colors according to your project.
+I customized the title, logo, and color scheme to match my **Dev-Stack-Builder** project.
+
+### 4.Where do we get the technology logos/icons?
+
+we can obtain technology logos or icon from different website.
+I used technology logo/icon URLs in my JSON data.
 
 
