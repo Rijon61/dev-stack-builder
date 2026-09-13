@@ -42,11 +42,13 @@ JSX is a syntax for React that looks like HTML syntax. It helps in easily creati
 ### 3. What is the useState hook and where did you use it in this project?
 
 The `useState` hook is used to store and modify mutable data in a React component.
+
 In the **Dev-Stack-Builder** project, I used `useState` to store the list of selected technologies.
 
 ### 4.What does the useEffect hook do, and why did you need it to load the JSON data?
 
 The `useEffect` hook is used to perform side effects in a React component.
+
 I used it to fetch and load the JSON data when the component renders.
 
 ### 5.Why does every item in a .map() list need a unique key prop?
@@ -56,6 +58,7 @@ When rendering a list using `.map()`, a unique key is required for each item so 
 ### 6.What is conditional rendering? Show one place you used it (example: the empty stack message).
 
 Conditional rendering means displaying different UI elements based on a condition.
+
 In the **Dev-Stack-Builder** project, I used it to show an empty stack message when no technology is selected.
 
 ```Code 
@@ -71,6 +74,7 @@ In the **Dev-Stack-Builder** project, I used it to show an empty stack message w
 
 
 Parent → Child: Data is passed using props.
+
 Child → Parent: A function prop is passed from the Parent to the Child. The Child can send data to the Parent by calling that function.
 
 ```Code
@@ -105,21 +109,25 @@ const handleAddToStack = (technology: TechnologyType): void => {
 ### 1. Where can we deploy the site?
 
 We can deploy the site on any hosting platform. For example, Netlify, Vercel, or Render etc.
+
 I deployed my project on **Netlify**.
 
 ### 2. Do we have to use TypeScript?
 
 No. We can use TypeScript or JavaScript.
+
 I have used **TypeScript** in my project.
 
 ### 3.Can we change the title, logo, and colors?
 
 Yes. You can change the project title, logo, and colors according to your project.
+
 I customized the title, logo, and color scheme to match my **Dev-Stack-Builder** project.
 
 ### 4.Where do we get the technology logos/icons?
 
 we can obtain technology logos or icon from different website.
+
 I used technology logo/icon URLs in my JSON data.
 
 
