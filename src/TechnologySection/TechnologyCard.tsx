@@ -10,7 +10,7 @@ const TechnologyCard = ({technologyCard ,handleAddToStack,selected}:TechnologyCa
     console.log(TechnologyCard);
     
     return (
-        <div className={`  rounded-[10px] p-5 ${selected ? `border border-[#D91B7E]`:`border border-[#dcdee2]` }`}>
+        <div className={`  rounded-[10px] p-5 ${selected ? `border border-[#D91B7E]`:`border border-[#dcdee2]` } hover:shadow-2xl transition `}>
             <div className="flex justify-between ">
                 <img src={technologyCard.icon} className="w-8 h-8" alt={technologyCard.name} />
                 <h4 className=" border border-[#CFFAFE] px-2 py-1 rounded-[20px] text-[#0891B2] bg-[#ECFEFF]">{technologyCard.badge}</h4>

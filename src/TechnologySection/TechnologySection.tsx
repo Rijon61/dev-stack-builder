@@ -88,7 +88,9 @@ const TechnologySection = ({ technologyPromise }: TechnologiesPops) => {
         Pick one technology per category to build your ideal stack.
       </p>
 
-      {/* Card */}
+      {/* Technology Card */}
+
+       {/* Add to Stack */}
       <div className="grid grid-cols-1 md:grid-cols-12 gap-3 mt-10 p-8 md:p-0">
         <div className="md:col-span-9 grid grid-cols-1 md:grid-cols-3 gap-4 ">
           {/* 80% */}
@@ -101,11 +103,13 @@ const TechnologySection = ({ technologyPromise }: TechnologiesPops) => {
             />
           ))}
         </div>
+
+        {/* Your Stack */}
         <div className="md:col-span-3 border border-[#dcdee2] p-5 rounded-[10px]">
           {/* 20% */}
           <h1 className="font-semibold text-2xl ">Your Stack</h1>
           <p className="text-[#A3B0C2] text-[17px]">
-            {selectedTechnology.length} Technology Selected
+            {selectedTechnology.length >0 ? `${selectedTechnology.length} Technology Selected ` :`No Technology Selected` } 
           </p>
           <div>
             {selectedTechnology.length > 0 ? (

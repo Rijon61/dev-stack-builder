@@ -25,6 +25,9 @@ const Footer = () => {
         </div>
       </div>
        {/* 70% */}
+
+       {/* PRODUCT */}
+
       <div className="md:col-span-7 md:grid md:grid-cols-12">
         <div className="md:col-span-4 hidden md:block ">
           <h3 className="font-semibold mb-1.5 ">PRODUCT</h3>
@@ -41,6 +44,9 @@ const Footer = () => {
           </ul>
         </div>
 
+
+        {/* COMPANY */}
+
         <div className="md:col-span-4 hidden md:block" >
           <h3 className="font-semibold mb-1.5">COMPANY</h3>
           <ul className="text-[#64748B] grid gap-1.5">
@@ -55,6 +61,9 @@ const Footer = () => {
             </li>
           </ul>
         </div>
+
+        {/* LEGAL */}
+        
         <div className="md:col-span-4 hidden md:block ">
           <h3 className="font-semibold mb-1.5">LEGAL</h3>
           <ul className="text-[#64748B] grid gap-1.5 ">
