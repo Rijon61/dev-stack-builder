@@ -21,13 +21,6 @@ Dev-Stack-Builder is a beginner-friendly web application that helps developers e
 - ➕ **Add to Stack** – Add your  technologies to create your own personalized development stack..
 - 👉🏻🗑️ **Remove Technologies** – Easily remove technologies from your stack or clear the entire stack.
 
-## ▶🚀 How to Run
-
-```bash
-npm install
-npm run dev
-```
-
 ## 🌐 Live Website
 
 [Visit Dev-Stack-Builder](https://devstack-explorer.netlify.app/)
